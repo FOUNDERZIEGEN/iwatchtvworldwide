@@ -9,9 +9,9 @@ let hls=null,shakaPlayer=null,currentIndex=0;
 // Channels array (MPD no key & MPD with key supported)
 const channels=[
 {name:"Sdtv Network",type:"m3u8",logo:"https://i.imgur.com/gzQ9sFM.jpeg",src:"https://sdtvnetworkph.sanmateocable.workers.dev/playlist.m3u8"},   
-{name:"Sdtv Hd",type:"m3u8",logo:"https://i.imgur.com/oE9jora.jpeg",src:"https://live20.bozztv.com/giatvplayout7/giatv-211473/tracks-v1a1/mono.ts.m3u8"}, 
-{name:"Sdtv Radio",type:"m3u8",logo:"https://i.imgur.com/VOBlE8Y.jpeg",src:"https://usa2.server2028.com/hls/sdtv_radio/live.m3u8"},
-{name:"Alltv2",type:"mpd",drm:true,keyId:"31363233323238353336303333363036",key:"367662564c69425947353948374f4553",logo:"https://i.imgur.com/9093ago.jpeg",src:"https://converse.nathcreqtives.com/1179/manifest.mpd?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNb29uIiwiaWF0IjoxNzczMDE1NjMzLCJleHAiOjE3NzQwNzc2NTgsImFjY291bnRFeHBpcmVkIjpmYWxzZSwiYWNjb3VudEV4cGlyZXNBdCI6MTc3NDA3NzY1OH0.rIytn71LR0JrQotL7kVoIPO3ppFXjERc9GpbbUhmm9w"},
+{name:"Sdtv Regional",type:"m3u8",logo:"https://i.imgur.com/M9G4z0K.jpeg",src:"https://live20.bozztv.com/giatvplayout7/giatv-211473/tracks-v1a1/mono.ts.m3u8"}, 
+{name:"Sdtv Radio",type:"m3u8",logo:"https://i.imgur.com/qRHzyYa.jpeg",src:"https://usa2.server2028.com/hls/sdtv_radio/live.m3u8"},
+{name:"Alltv2",type:"mpd",drm:true,keyId:"31363233323238353336303333363036",key:"367662564c69425947353948374f4553",logo:"https://i.imgur.com/SY4lgHf.jpeg",src:"https://converse.nathcreqtives.com/1179/manifest.mpd?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJtb29uIiwiaWF0IjoxNzc0MzkyNDY4LCJleHAiOjE3NzU1Njg1MjYsImFjY291bnRFeHBpcmVkIjpmYWxzZSwiYWNjb3VudEV4cGlyZXNBdCI6MTc3NTU2ODUyNiwiYWxsb3dlZE9yaWdpbnMiOlsiaHR0cHM6Ly8zcnNuZXcucGFnZXMuZGV2IiwiaHR0cHM6Ly8zcnNyYWRpbzIucGFnZXMuZGV2IiwiaHR0cHM6Ly9pd2F0Y2h0di5pdHVuZXJ3b3JsZHdpZGUud29ya2Vycy5kZXYiLCJodHRwczovL2RyaXZlLmdvb2dsZS5jb20iXX0.EjGScpQI6RTg7Z5NFZWQW29JR3YDQOJDxBb4Ydmvq-U"},
 {name:"Jeepney Tv",type:"mpd",drm:true,keyId:"dc9fec234a5841bb8d06e92042c741ec",key:"225676f32612dc803cb4d0f950d063d0",logo:"https://i.imgur.com/d7VflLp.jpeg",src:"https://abslive.akamaized.net/dash/live/2027618/jeepneytv/manifest.mpd"},
   {name:"HypeTV",type:"m3u8",logo:"https://i.imgur.com/PfqrJEf.png",src:"https://live20.bozztv.com/giatvplayout7/giatv-211468/tracks-v1a1/mono.ts.m3u8"},
  {name:"Golden Tv",type:"m3u8",logo:"https://i.imgur.com/9EGqMKY.jpeg",src:"https://goldentelevisionnetwork.sanmateocable.workers.dev/playlist.m3u8"}, 
@@ -19,8 +19,7 @@ const channels=[
 {name:"3rs MovieBox",type:"m3u8",logo:"https://i.imgur.com/b4rjf8n.png",src:"https://live20.bozztv.com/giatvplayout7/giatv-210731/tracks-v1a1/mono.ts.m3u8"},
 {name:"3rs Tv",type:"m3u8",logo:"https://i.imgur.com/50RyQA7.jpeg",src:"https://live20.bozztv.com/giatvplayout7/giatv-210631/tracks-v1a1/mono.ts.m3u8"},
 {name:"3rs Cartoon Movies",type:"m3u8",logo:"https://i.imgur.com/OMGlC4R.png",src:"https://live20.bozztv.com/giatvplayout7/giatv-211507/tracks-v1a1/mono.ts.m3u8"},
-{name:"Juzt Tv",type:"m3u8",logo:"https://i.imgur.com/HmK3hm3.png",src:"https://live20.bozztv.com/giatvplayout7/giatv-210639/tracks-v1a1/mono.ts.m3u8"},
- {name:"Star Tv Philippines",type:"m3u8",logo:"https://i.imgur.com/4iJ8xHq.jpeg",src:"https://startvphilippines.sanmateocable.workers.dev/playlist.m3u8"},  
+{name:"Star Tv Philippines",type:"m3u8",logo:"https://i.imgur.com/4iJ8xHq.jpeg",src:"https://startvphilippines.sanmateocable.workers.dev/playlist.m3u8"},  
  {name:"TV5",type:"mpd",drm:true,keyId:"2615129ef2c846a9bbd43a641c7303ef",key:"07c7f996b1734ea288641a68e1cfdc4d",logo:"https://i.imgur.com/70wHkDj.png",src:"https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/tv5_hd/default1/index.mpd"},
 {name:"Kapatid Channel",type:"mpd",drm:true,keyId:"dbf670bed2ea4905a114557e90e7ffb6",key:"616059bec8dfb27f3524b7e7c31b6cff",logo:"https://i.imgur.com/ov0JO06.jpeg",src:"https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/pphd_sdi1/default/index.mpd"},
 {name:"Rptv",type:"mpd",drm:true,keyId:"31363231383439313133323034313530",key:"78645370476a496d5756385231474332",logo:"https://i.imgur.com/Qh9pMXc.png",src:"https://converse.nathcreqtives.com/1094/manifest.mpd?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNb29uIiwiaWF0IjoxNzczMDE1NjMzLCJleHAiOjE3NzQwNzc2NTgsImFjY291bnRFeHBpcmVkIjpmYWxzZSwiYWNjb3VudEV4cGlyZXNBdCI6MTc3NDA3NzY1OH0.rIytn71LR0JrQotL7kVoIPO3ppFXjERc9GpbbUhmm9w"},
