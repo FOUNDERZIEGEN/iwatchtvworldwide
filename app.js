@@ -59,7 +59,7 @@ const channels=[
 {name:"Iqiyi",type:"mpd",drm:true,keyId:"7ef7e913ce85a1131b27036069169a10",key:"77d98ed71db7524c27875a09a975f9e6",logo:"https://i.imgur.com/TMv0tPh.jpeg",src:"https://linearjitp-playback.astro.com.my/dash-wv/linear/1006/default_ott.mpd"},
 {name:"Asian Hits",type:"mpd",drm:true,keyId:"dac6cbd9d17a451bb76386f52469e0e9",key:"2e2ac52cadf843459915eaa1a9b95e48",logo:"https://i.imgur.com/vzn3wGw.jpeg",src:"https://cnt1-streamer14.cdn.3bbtv.com:8443/3bb/live/101/101.mpd"},
 {name:"Pbo",type:"mpd",drm:true,keyId:"dcbdaaa6662d4188bdf97f9f0ca5e830",key:"31e752b441bd2972f2b98a4b1bc1c7a1",logo:"https://i.imgur.com/hh2EP86.png",src:"https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/pbo_sd/default/index.mpd"},
-{name:"Cinemaone Global",type:"mpd",logo:"https://i.imgur.com/0EYKkIZ.jpeg",src:"https://d9rpesrrg1bdi.cloudfront.net/out/v1/93b9db7b231d45f28f64f29b86dc6c65/index.mpd"},
+{name:"Cinemaone Globa;",type:"mpd",drm:true,keyId:"55eddd1e157e4c3b830866e4679e7032",key:"525030e984567ba8df0af80660952368",logo:"https://i.imgur.com/0EYKkIZ.jpeg",src:"https://abslive.akamaized.net/dash/live/2027618/c1ph/manifest.mpd"},
 {name:"Cinemo Global",type:"m3u8",logo:"https://i.imgur.com/LLMx6Um.png",src:"https://d1bail49udbz1k.cloudfront.net/out/v1/78e282e04f0944f3ad0aa1db7a1be645/index_3.m3u8"},  
 {name:"Dzmm Teleradyo",type:"mpd",logo:"https://i.imgur.com/a7arJmp.jpeg",src:"https://d14c00opfjb50c.cloudfront.net/out/v1/0fa4eb67579d41cca4ed146c93aa855f/index.mpd"},
 {name:"Hits Movies",type:"mpd",drm:true,keyId:"f56b57b32d7e4b2cb21748c0b56761a7",key:"3df06a89aa01b32655a77d93e09e266f",logo:"https://i.imgur.com/FEHwzDt.jpeg",src:"https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_hitsmovies.mpd"},
