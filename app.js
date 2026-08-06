@@ -73,7 +73,6 @@ const channels=[
   {name:"Extrem Sports",type:"m3u8",logo:"https://i.imgur.com/S6WRVbP.jpeg",src:"https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/e0b81a5c-6ab5-48cd-aaa9-f82de4ab5bf9/manifest.m3u8"},
  {name:"Star Cinema",type:"m3u8",logo:"https://i.imgur.com/Auq7Mk9.jpeg",src:"https://ssai.aniview.com/api/v1/hls/stream.m3u8?AVS_SSAIID=6743dbc3fb7aa20b270802ff&AV_CHANNEL_NAME=Starmedia&AV_CONTENT_LANGUAGE=en&AV_CONTENT_RATING=TV-PG&AV_CONTENT_GENERE=907&cb=1760690422298&AV_APPPKGNAME=com.seraphic.metaxplay&AV_APPNAME=MetaX"}, 
  {name:"Home Network",type:"mpd",drm:true,keyId:"7a038d04b7d0dd22c82ea624723b0b8e",key:"3240f2e23952c853d4eda4f0675ee13d",logo:"https://i.imgur.com/egGLUE0.jpeg",src:"https://live.corusdigitaldev.com/groupd/live/fa24b652-0688-4813-b6d8-bb25998cacb1/corus-home.isml/.mpd"},
-{name:"Strawberry Shortcake",type:"m3u8",logo:"https://i.imgur.com/1oEQWvQ.png",src:"https://d1si3n1st4nkgb.cloudfront.net/manifest/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_samsungtvplus-xumo/96a9d3b0-ee91-4a47-acb4-6c8d19d775c1/5.m3u8"},
 {name:"Hbo",type:"mpd",logo:"https://i.imgur.com/kW5ApOn.jpeg",src:"https://cdn10jtedge.indihometv.com/atm/DASH/hbo/manifest.mpd"},
 {name:"Kix",type:"mpd",logo:"https://i.imgur.com/fcDVnwH.png",src:"https://cdn10jtedge.indihometv.com/atm/DASH/kix/manifest.mpd"},
 {name:"Axn",type:"mpd",logo:"https://i.imgur.com/BM5LmFM.png",src:"https://cdn10jtedge.indihometv.com/atm/DASH/axn/manifest.mpd"},
