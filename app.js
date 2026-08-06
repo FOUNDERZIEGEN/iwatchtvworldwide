@@ -42,6 +42,7 @@ const channels=[
 {name:"Kapamilya Channel",type:"mpd",drm:true,keyId:"31363331363737343637333533323837",key:"71347339457958556439543650426e74",logo:"https://i.imgur.com/S2FCXzr.png",src:"https://converse.nathcreqtives.com/1286/manifest.mpd?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJNb29uIiwiaWF0IjoxNzczMDE1NjMzLCJleHAiOjE3NzQwNzc2NTgsImFjY291bnRFeHBpcmVkIjpmYWxzZSwiYWNjb3VudEV4cGlyZXNBdCI6MTc3NDA3NzY1OH0.rIytn71LR0JrQotL7kVoIPO3ppFXjERc9GpbbUhmm9w"},
 {name:"Gma",type:"m3u8",logo:"https://i.imgur.com/z2rl3df.jpeg",src:"https://streams.comclark.com/pknsd/gma_7/playlist.m3u8"},
  {name:"Gtv",type:"m3u8",logo:"https://i.imgur.com/aeWyCsh.jpeg",src:"https://streams.comclark.com/pknsd/gtv/chunks.m3u8"},
+ {name:"A2z",type:"m3u8",logo:"https://i.imgur.com/GANLHVE.jpeg",src:"https://streams.comclark.com/pknsd/a2z/chunks.m3u8"}, 
 {name:"Gma Pinoy Tv",type:"mpd",logo:"https://i.imgur.com/zUhUdDq.png",src:"https://amg01006-abs-cbn-abscbn-gma-x7-dash-abscbnono-dzsx9.amagi.tv/index.mpd"},
  {name:"Net25",type:"mpd",logo:"https://i.imgur.com/23hbSGd.png",src:"https://www.maruyatvph.com/converge/index.php/net25.mpd?token=66e144f93532"},
 {name:"Dzrh Tv",type:"m3u8",logo:"https://i.imgur.com/5tshNjy.png",src:"https://streams.comclark.com/pknsd/dzrh/playlist.m3u8"}, 
