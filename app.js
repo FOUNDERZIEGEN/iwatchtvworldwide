@@ -8,6 +8,7 @@ let hls=null,shakaPlayer=null,currentIndex=0;
 
 // Channels array (MPD no key & MPD with key supported)
 const channels=[
+{name:"SmmcTV- Coming Soon...",type:"m3u8",logo:"https://i.imgur.com/WRxXEdI.jpeg",src:"https://startelevisionph.itunerworldwide1.workers.dev/master.live.m3u8"},    
 {name:"Star Television",type:"m3u8",logo:"https://i.imgur.com/3nprckc.jpeg",src:"https://startelevisionph.itunerworldwide.workers.dev/master.live.m3u8"},  
 {name:"BigscreenTV",type:"m3u8",logo:"https://i.imgur.com/VZ3SNJe.jpeg",src:"https://bigscreentv.itunerworldwide.workers.dev/master.live.m3u8"},
 {name:"Ptn",type:"m3u8",logo:"https://i.imgur.com/B19YGN3.jpeg",src:"https://ptnglobal.sanmateocable.workers.dev/master.live.m3u8"}, 
