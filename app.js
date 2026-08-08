@@ -28,7 +28,7 @@ const channels=[
 {name:"Dream Tv Philippines",type:"m3u8",logo:"https://i.imgur.com/sKMOzY7.jpeg",src:"https://dreamtvph.itunerworldwide.workers.dev/master.live.m3u8"}, 
 {name:"South Star TV",type:"m3u8",logo:"https://i.imgur.com/44LgASs.png",src:"https://southstartv.itunerworldwide.workers.dev/master.live.m3u8"}, 
 {name:"Jpv TV",type:"m3u8",logo:"https://i.imgur.com/qtrfdvf.jpeg",src:"https://jpvtvphilippines_hd.vonnhost.workers.dev/jpv.live.m3u8"},  
-{name:"Avl TV",type:"m3u8",logo:"https://i.imgur.com/HRoTCoc.png",src:"https://183.bozztv.com/giatv/giatv-baytvteleradyo/baytvteleradyo/chunks.m3u8"},   
+{name:"Avl TV",type:"m3u8",logo:"https://i.imgur.com/HRoTCoc.png",src:"https://avlmedianetwork.vonnhost1.workers.dev/avl.live.m3u8"},   
  {name:"TV5",type:"mpd",drm:true,keyId:"9c3e7a516d824f04a9175b8c2e3d7040",key:"524a9c2cec98272f71c347345a3fd12e",logo:"https://i.imgur.com/70wHkDj.png",src:"https://ucdn.mediaquest.com.ph/bpk-tv/tv5_hd/default1/index.mpd"},
 {name:"Kapatid Channel",type:"mpd",drm:true,keyId:"8f7a2c913d6b4e5a9f127c8d4e6a1b90",key:"a73d3d1211fb23084c62572706f45397",logo:"https://i.imgur.com/ov0JO06.jpeg",src:"https://ucdn.mediaquest.com.ph/bpk-tv/kapatid_hd/default/index.mpd"},
 {name:"Kapatid Live",type:"mpd",drm:true,keyId:"dbf670bed2ea4905a114557e90e7ffb6",key:"616059bec8dfb27f3524b7e7c31b6cff",logo:"https://i.imgur.com/ov0JO06.jpeg",src:"https://ucdn.mediaquest.com.ph/bpk-tv/pphd_sdi1/default/index.mpd"},  
